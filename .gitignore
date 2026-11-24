@@ -1,18 +1,13 @@
-
-# Maven build output
-target/
-
-# Local Maven installation
-apache-maven-3.10.2/
+# Java build output
+bin/
+*.class
 
 # macOS files
 .DS_Store
 
 # VS Code local settings
-.vscode/
-
-# Java compiled files
-*.class
+.vscode/*
+!.vscode/settings.json
 
 # Log files
 *.log
